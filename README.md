@@ -294,6 +294,9 @@ spring:
               - "*"
             allowCredentials: true
 ```
+- 적용 이미지
+![게이트웨이](https://user-images.githubusercontent.com/30138356/125386847-edaddb80-e3d7-11eb-9738-5c8904b3a28e.PNG)
+
 - gateway Service yml 에 loadBalancer 적용
 ```yml
 apiVersion: v1
@@ -311,8 +314,6 @@ spec:
   type: LoadBalancer
 
 ```
-- 적용 이미지
-![게이트웨이](https://user-images.githubusercontent.com/30138356/125386847-edaddb80-e3d7-11eb-9738-5c8904b3a28e.PNG)
 
 ## DDD 의 적용
 
